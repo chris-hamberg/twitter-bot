@@ -1,0 +1,15 @@
+user categories:
+
+DOES NOT HAVE user_s:
+    admin
+    resource
+
+HAS user_s:
+    type_alpha
+    follower
+    following
+    followerQ
+    followingQ
+    friendQ
+    unfriendQ
+    blacklist

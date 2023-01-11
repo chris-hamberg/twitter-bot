@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS tweet (
+    tweet_id        INTEGER NOT NULL,
+    text            VARCHAR(140),
+    id              INTEGER NOT NULL,
+    admin           INTEGER NOT NULL,
+    liked           BOOLEAN DEFAULT FALSE,
+    replied         BOOLEAN DEFAULT FALSE,
+    mentioned       BOOLEAN DEFAULT FALSE,
+    type            VARCHAR(15) NOT NULL,
+    query           VARCHAR(255),
+    conversation_id INTEGER,
+    delta           DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY(admin) REFERENCES administrator(id),
+    FOREIGN KEY(id) REFERENCES user(id),
+    PRIMARY KEY(admin, id, tweet_id));

@@ -1,0 +1,64 @@
+PRAGMA foreign_keys = on;
+.mode columns
+.headers on
+.read user/administrator.sql
+.read user/user.sql
+.read user/user_c.sql
+.read user/user_s.sql
+.read user/resource.sql
+.read user/type_alpha.sql
+.read tweet/tweet.sql
+.read content/youtube.sql
+
+--ADD ADMINISTRATORS
+INSERT INTO user (id, name, username) VALUES (0, 'admin1', 'admin1');
+INSERT INTO user (id, name, username) VALUES (1, 'admin2', 'admin2');
+INSERT INTO administrator (id) VALUES (0);
+INSERT INTO administrator (id) VALUES (1);
+INSERT INTO user_c (cat, admin, id) VALUES('admin', 0, 0);
+INSERT INTO user_c (cat, admin, id) VALUES('admin', 1, 1);
+
+--ADD REGULAR USERS
+INSERT INTO user (id, name, username) VALUES (2, 'bob', 'johnson');
+INSERT INTO user_s (admin, id, unfollowed_count, priority)
+VALUES (0, 2, 0, 0);
+INSERT INTO user_c (cat, admin, id) VALUES('following', 0, 2);
+INSERT INTO user_c (cat, admin, id) VALUES('unfriend_queue', 0, 2);
+INSERT INTO user_s (admin, id, unfollowed_count, priority)
+VALUES (1, 2, 0, 0);
+INSERT INTO user_c (cat, admin, id) VALUES('follower', 1, 2);
+
+--ADD SCRAPER RESOURCE
+INSERT INTO user (id, name, username) VALUES (4, 'DR', 'DRE');
+INSERT INTO resource (admin, id) VALUES (0, 4);
+INSERT INTO user_c (cat, admin, id) VALUES('resource', 0, 4);
+
+--ADD SCRAPER ENTRIES
+INSERT INTO user (id, name, username) VALUES (3, 'todd', 'jones');
+INSERT INTO type_alpha (admin, id, resource) VALUES (0, 3, 4);
+INSERT INTO user_c (cat, admin, id) VALUES ('type_alpha', 0, 3);
+INSERT INTO user_s (admin, id) VALUES (0, 3);
+
+--ADD TWEET
+INSERT INTO user (id, name, username) VALUES (5, 'tweet', 'user');
+INSERT INTO user_c (cat, admin, id) VALUES ('type_alpha', 0, 5);
+INSERT INTO user_s (admin, id, priority) VALUES (0, 5, 1);
+INSERT INTO type_alpha (admin, id) VALUES (0, 5);
+INSERT INTO tweet (tweet_id, text, id, admin, type, query)
+VALUES (0, 'i need beats from taco bell please', 5, 0, 'hardcoded', 
+    'i need beats');
+
+--ADD YOUTUBE PLAYLIST
+INSERT INTO youtube (admin, playlist_id, emojis) VALUES (0, 0, 'ASDF');
+INSERT INTO youtube (admin, playlist_id, emojis) VALUES (0, 1, 'ASDF');
+
+--QUERY PLAYLIST
+INSERT INTO youtube (admin, playlist_id, video_id) VALUES (0, 0, 0);
+INSERT INTO youtube (admin, playlist_id, video_id) VALUES (0, 0, 1);
+UPDATE youtube SET emojis = 'ASDF' WHERE playlist_id = 0;
+SELECT playlist_id FROM youtube GROUP BY playlist_id;
+
+--ADD YOUTUBE RSS STREAM
+INSERT INTO youtube (admin, channel_id, emojis, flags) VALUES (0, 0, 'ERG', 'R');
+
+
