@@ -29,7 +29,7 @@ class Core:
         if   self.sentinel.type_1(instruction):  return False
         elif self.sentinel.type_2():             return False
         elif self.sentinel.type_3(dialog, t_id): return False
-        message = f"HyperCortext (type-α) AI is generating reply to {uname}."
+        message = f"HyperCortex (type-α) AI is generating reply to {uname}."
         self.reporter.report(message)
         while True:
             tensor     = self.get_tensor(knowledge, instruction, dialog)

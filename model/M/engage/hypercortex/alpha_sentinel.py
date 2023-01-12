@@ -20,7 +20,7 @@ class AlphaSentinel:
 
     def type_1(self, instruction):
         if bool(instruction): return False
-        self.reporter.report("HyperCortext (type-α) AI requires instruction.")
+        self.reporter.report("HyperCortex (type-α) AI requires instruction.")
         return True
 
 

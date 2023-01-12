@@ -1,0 +1,413 @@
+
+2023-01-12 15:00:08,719
+
+    lineno. 43 ::: [INFO]
+
+    << module   | robot.py >>
+    << function | __init__ >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/controller/robot.py
+
+[MESSAGE]: Robot initialized.
+
+
+
+2023-01-12 15:00:40,957
+
+    lineno. 47 ::: [INFO]
+
+    << module   | robot.py >>
+    << function | run >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/controller/robot.py
+
+[MESSAGE]: Robot is running.
+
+
+
+2023-01-12 15:00:40,958
+
+    lineno. 83 ::: [INFO]
+
+    << module   | robot.py >>
+    << function | _init_admins >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/controller/robot.py
+
+[MESSAGE]: Robot initializing administrators.
+
+
+
+2023-01-12 15:01:01,111
+
+    lineno. 73 ::: [DEBUG]
+
+    << module   | interface.py >>
+    << function | _report >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/engage/mentions/interface.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+Checking for mentions in database.
+
+
+
+2023-01-12 15:01:06,438
+
+    lineno. 17 ::: [DEBUG]
+
+    << module   | reporter.py >>
+    << function | report >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/super/reporter.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+Initializing HyperCortex (type-α) AI.
+
+
+
+2023-01-12 15:01:50,336
+
+    lineno. 17 ::: [DEBUG]
+
+    << module   | reporter.py >>
+    << function | report >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/super/reporter.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+HyperCortext (type-α) AI is generating reply to Varaydein.
+
+
+
+2023-01-12 15:02:09,786
+
+    lineno. 54 ::: [INFO]
+
+    << module   | like_compositor.py >>
+    << function | _report >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/engage/compositors/like_compositor.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+Liked tweet 1611045665840168980.
+
+
+
+2023-01-12 15:02:13,335
+
+    lineno. 17 ::: [DEBUG]
+
+    << module   | reporter.py >>
+    << function | report >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/super/reporter.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+HTTP 201: Yeah I am just waiting for it! Oh, and it is great!
+
+
+
+2023-01-12 15:02:13,658
+
+    lineno. 73 ::: [DEBUG]
+
+    << module   | interface.py >>
+    << function | _report >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/engage/mentions/interface.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+Liked 1 mention(s.)
+
+
+
+2023-01-12 15:02:31,029
+
+    lineno. 81 ::: [INFO]
+
+    << module   | superclass.py >>
+    << function | report >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/super/superclass.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+Searching for 'send trap beat'.
+
+
+
+2023-01-12 15:02:32,859
+
+    lineno. 81 ::: [INFO]
+
+    << module   | superclass.py >>
+    << function | report >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/super/superclass.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+No results for 'send trap beat'
+
+
+
+2023-01-12 15:02:34,093
+
+    lineno. 81 ::: [INFO]
+
+    << module   | superclass.py >>
+    << function | report >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/super/superclass.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+Found 0 tweets & 0 users for 'send trap beat'
+
+
+
+2023-01-12 15:02:43,418
+
+    lineno. 126 ::: [DEBUG]
+
+    << module   | nergal.py >>
+    << function | _delete_orphans >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/content/nergal.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+Finished searching for orphans.
+
+
+
+2023-01-12 15:02:58,410
+
+    lineno. 81 ::: [INFO]
+
+    << module   | superclass.py >>
+    << function | report >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/super/superclass.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+RSS feeds updated.
+
+
+
+2023-01-12 15:03:06,303
+
+    lineno. 81 ::: [INFO]
+
+    << module   | superclass.py >>
+    << function | report >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/super/superclass.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+MΞTALHEΔD MΛKΞS BΞΔTS unfriended The Skibbereen Eagle - Орел Скібберін.
+
+
+
+2023-01-12 15:03:14,236
+
+    lineno. 81 ::: [INFO]
+
+    << module   | superclass.py >>
+    << function | report >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/super/superclass.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+606 users added to χQ from data source: None
+
+
+
+2023-01-12 15:03:14,773
+
+    lineno. 81 ::: [INFO]
+
+    << module   | superclass.py >>
+    << function | report >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/super/superclass.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+Waiting to process data.
+
+
+
+2023-01-12 15:03:17,864
+
+    lineno. 33 ::: [DEBUG]
+
+    << module   | streamer.py >>
+    << function | get >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/youtube/streamer.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+HTTP 200: 15 videos for channel UC9RWUo2FzwR29eI4hXiPQPg
+
+
+
+2023-01-12 15:03:21,123
+
+    lineno. 75 ::: [DEBUG]
+
+    << module   | type2.py >>
+    << function | _close >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/engage/reply/type2.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+548 tweets ∈ χQ;   (σ-reply) 0.73%
+
+
+
+2023-01-12 15:03:25,314
+
+    lineno. 66 ::: [DEBUG]
+
+    << module   | interface.py >>
+    << function | _report >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/engage/mentions/type_gamma/interface.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+Scraper type-Γ HTTP 200
+
+
+
+2023-01-12 15:03:33,991
+
+    lineno. 81 ::: [INFO]
+
+    << module   | superclass.py >>
+    << function | report >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/super/superclass.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+1000 users added to χQ from data source: VTE37G5MSG418ZZZ
+
+
+
+2023-01-12 15:03:38,245
+
+    lineno. 37 ::: [DEBUG]
+
+    << module   | inactive.py >>
+    << function | execute >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/users/inactive/inactive.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+customtattoodesigns is active on Twitter.
+
+
+
+2023-01-12 15:03:41,788
+
+    lineno. 46 ::: [DEBUG]
+
+    << module   | inactive.py >>
+    << function | execute >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/users/inactive/inactive.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+χQ overload; operating at 13.44% efficency (this is ok.)
+
+
+
+2023-01-12 15:03:43,531
+
+    lineno. 81 ::: [INFO]
+
+    << module   | superclass.py >>
+    << function | report >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/super/superclass.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+Sentinel type-Omega: must first reply, retweet, & like.
+
+
+
+2023-01-12 15:03:43,533
+
+    lineno. 154 ::: [INFO]
+
+    << module   | robot.py >>
+    << function | _manage >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/controller/robot.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+ SentinelException: tweet
+
+
+
+2023-01-12 15:03:45,665
+
+    lineno. 81 ::: [INFO]
+
+    << module   | superclass.py >>
+    << function | report >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/super/superclass.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+585 tweets ∈ χQ;   (σ-like) 4.79%   (σ-reply/retweet) 3.42%
+
+
+
+2023-01-12 15:04:23,392
+
+    lineno. 81 ::: [INFO]
+
+    << module   | superclass.py >>
+    << function | report >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/super/superclass.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+584 tweets ∈ χQ;   (σ-like) 4.79%   (σ-reply/retweet) 3.42%
+
+
+
+2023-01-12 15:04:33,243
+
+    lineno. 75 ::: [DEBUG]
+
+    << module   | type2.py >>
+    << function | _close >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/engage/reply/type2.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+547 tweets ∈ χQ;   (σ-reply) 0.73%
+
+
+
+2023-01-12 15:05:08,865
+
+    lineno. 81 ::: [INFO]
+
+    << module   | superclass.py >>
+    << function | report >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/super/superclass.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+583 tweets ∈ χQ;   (σ-like) 4.8%   (σ-reply/retweet) 3.43%
+
+
+
+2023-01-12 15:05:19,332
+
+    lineno. 81 ::: [INFO]
+
+    << module   | superclass.py >>
+    << function | report >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/super/superclass.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+MΞTALHEΔD MΛKΞS BΞΔTS unfriended ccf344🍁🍺🦬 Ї🌻🇺🇦🇵🇱.
+
+
+
+2023-01-12 15:05:25,005
+
+    lineno. 75 ::: [DEBUG]
+
+    << module   | type2.py >>
+    << function | _close >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/engage/reply/type2.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+546 tweets ∈ χQ;   (σ-reply) 0.73%
+
+
+
+2023-01-12 15:05:35,260
+
+    lineno. 81 ::: [INFO]
+
+    << module   | superclass.py >>
+    << function | report >>
+    /home/chris/Documents/Python/metalhead.makes.beats/twitter.bot/model/M/super/superclass.py
+
+[MESSAGE]: MΞTALHEΔD MΛKΞS BΞΔTS
+Waiting to process data.
+
+
